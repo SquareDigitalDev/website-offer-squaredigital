@@ -9,8 +9,17 @@ export const Header = () => {
         
         <nav className="hidden md:flex items-center gap-8">
           <div className="flex items-center gap-1 text-foreground">
-            
-            <span>Proudly Canadian</span>
+            <button 
+              onClick={() => {
+                const pricingSection = document.getElementById('pricing-section');
+                if (pricingSection) {
+                  pricingSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className="hover:text-primary transition-colors cursor-pointer"
+            >
+              Pricing
+            </button>
           </div>
           
           
