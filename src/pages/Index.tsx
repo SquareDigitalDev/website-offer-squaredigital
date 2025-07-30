@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/ui/hero-section";
 import { FeaturesSection } from "@/components/ui/features-section";
 import { PricingSection } from "@/components/ui/pricing-section";
 import { CaseStudiesSection } from "@/components/ui/case-studies-section";
+import { TestimonialsSection } from "@/components/ui/testimonials-section";
 import { Footer } from "@/components/ui/footer";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <FeaturesSection />
       <PricingSection />
       <CaseStudiesSection />
+      <TestimonialsSection />
       <Footer />
     </div>
   );
