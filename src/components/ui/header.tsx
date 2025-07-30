@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Leaf } from "lucide-react";
 export const Header = () => {
   return <header className="border-b border-border bg-background">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -7,9 +8,10 @@ export const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#services" className="text-foreground hover:text-primary transition-colors">
-            Services
-          </a>
+          <div className="flex items-center gap-1 text-foreground">
+            <Leaf size={14} className="text-primary" />
+            <span>Proudly Canadian</span>
+          </div>
           
           
         </nav>
