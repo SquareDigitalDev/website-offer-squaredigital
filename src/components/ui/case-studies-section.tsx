@@ -47,9 +47,7 @@ export const CaseStudiesSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
-            We Build Great-Looking, 
-            <span className="text-primary"> Crazy-Effective</span> Home Service Websites.
-            <span className="block mt-2">Let's Build Yours Next!</span>
+            Smart, Effective Websites for Business Operators Who Don't Have Time to Waste. We'll Handle It.
           </h2>
           
           <div className="flex items-center justify-center gap-4 mb-8">
