@@ -55,7 +55,7 @@ export const CaseStudiesSection = () => {
               LIMITED TIME OFFER
             </Badge>
             <div className="text-lg font-semibold text-muted-foreground">
-              Deadline: March 31st, 2025
+              Deadline: August 8th, 2025
             </div>
           </div>
           
