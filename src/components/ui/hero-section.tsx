@@ -33,7 +33,11 @@ export const HeroSection = () => {
         </Card>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-lg px-8 py-6">
+          <Button 
+            size="lg" 
+            className="text-lg px-8 py-6"
+            onClick={() => window.open('https://squaredigital.typeform.com/to/MlCmyZ5t', '_blank')}
+          >
             Get Started Today
           </Button>
           <Button 
