@@ -17,7 +17,7 @@ export const HeroSection = () => {
         <div className="mb-8 max-w-4xl mx-auto">
           <div className="relative aspect-video bg-black rounded-lg overflow-hidden">
             <video
-              src="/SD Video for Ads .mp4"
+              src="/sd-video-for-ads.mp4"
               controls
               className="w-full h-full"
               poster=""
