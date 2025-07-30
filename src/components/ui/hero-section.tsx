@@ -18,7 +18,7 @@ export const HeroSection = () => {
           <YouTubeEmbed videoId="k71GDGtaNsQ" />
         </div>
         
-        <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto font-bold">
+        <p className="text-xl mb-8 text-foreground max-w-2xl mx-auto font-bold">
           We'll Build, Host + Manage your website for a low-cost monthly-payment.
         </p>
         
