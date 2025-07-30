@@ -89,7 +89,7 @@ export const CaseStudiesSection = () => {
                 <Button 
                   variant="outline" 
                   className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
-                  onClick={() => window.open('https://simonbabincarpentry.ca/', '_blank')}
+                  onClick={() => window.open('https://justmovevancouver.ca/', '_blank')}
                 >
                   {mockup.cta}
                 </Button>
