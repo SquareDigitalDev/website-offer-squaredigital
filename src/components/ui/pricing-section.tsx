@@ -64,7 +64,7 @@ export const PricingSection = () => {
           {plans.map((plan, index) => (
             <Card 
               key={index} 
-              className={`relative ${plan.popular ? 'border-primary shadow-lg scale-105' : ''}`}
+              className={`relative flex flex-col h-full ${plan.popular ? 'border-primary shadow-lg scale-105' : ''}`}
             >
               {plan.badge && (
                 <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground">
@@ -83,8 +83,8 @@ export const PricingSection = () => {
                 <p className="text-muted-foreground mt-2">{plan.description}</p>
               </CardHeader>
               
-              <CardContent>
-                <ul className="space-y-3 mb-6">
+              <CardContent className="flex-1 flex flex-col">
+                <ul className="space-y-3 mb-6 flex-1">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
@@ -94,7 +94,7 @@ export const PricingSection = () => {
                 </ul>
                 
                 <Button 
-                  className="w-full" 
+                  className="w-full mt-auto" 
                   variant={plan.popular ? "default" : "outline"}
                   size="lg"
                 >
