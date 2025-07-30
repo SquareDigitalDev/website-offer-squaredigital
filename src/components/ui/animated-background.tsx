@@ -1,68 +1,82 @@
 export const AnimatedBackground = () => {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
-      {/* Primary floating gradient */}
+      {/* Main diagonal gradient backdrop */}
       <div 
-        className="absolute w-96 h-96 rounded-full opacity-30 blur-3xl animate-float-1"
-        style={{
-          background: `radial-gradient(circle, hsl(var(--brand-golden) / 0.4) 0%, hsl(var(--brand-amber) / 0.2) 50%, transparent 100%)`,
-          top: '10%',
-          left: '15%',
-        }}
-      />
-      
-      {/* Secondary floating gradient */}
-      <div 
-        className="absolute w-80 h-80 rounded-full opacity-25 blur-3xl animate-float-2"
-        style={{
-          background: `radial-gradient(circle, hsl(var(--brand-orange) / 0.3) 0%, hsl(var(--brand-amber) / 0.15) 60%, transparent 100%)`,
-          top: '60%',
-          right: '20%',
-        }}
-      />
-      
-      {/* Tertiary floating gradient */}
-      <div 
-        className="absolute w-72 h-72 rounded-full opacity-20 blur-3xl animate-float-3"
-        style={{
-          background: `radial-gradient(circle, hsl(var(--brand-charcoal) / 0.4) 0%, hsl(var(--brand-golden) / 0.1) 70%, transparent 100%)`,
-          bottom: '20%',
-          left: '25%',
-        }}
-      />
-      
-      {/* Large subtle background gradient */}
-      <div 
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-40"
         style={{
           background: `linear-gradient(135deg, 
-            hsl(var(--brand-charcoal) / 0.1) 0%, 
-            transparent 25%, 
-            hsl(var(--brand-golden) / 0.05) 50%, 
-            transparent 75%, 
-            hsl(var(--brand-orange) / 0.08) 100%
+            hsl(var(--brand-charcoal) / 0.15) 0%, 
+            hsl(var(--brand-charcoal) / 0.08) 25%, 
+            transparent 50%, 
+            hsl(var(--brand-golden) / 0.06) 75%, 
+            hsl(var(--brand-amber) / 0.12) 100%
           )`,
         }}
       />
       
-      {/* Organic shapes */}
+      {/* Subtle radial overlay - top left */}
       <div 
-        className="absolute w-64 h-64 opacity-15 blur-2xl animate-drift-1"
+        className="absolute w-[120vh] h-[120vh] opacity-20 blur-3xl"
         style={{
-          background: `radial-gradient(ellipse 60% 40%, hsl(var(--brand-amber) / 0.3) 0%, transparent 70%)`,
-          top: '30%',
-          right: '10%',
-          borderRadius: '60% 40% 70% 30%',
+          background: `radial-gradient(circle, hsl(var(--brand-golden) / 0.25) 0%, hsl(var(--brand-amber) / 0.15) 40%, transparent 70%)`,
+          top: '-40%',
+          left: '-40%',
         }}
       />
       
+      {/* Subtle radial overlay - bottom right */}
       <div 
-        className="absolute w-56 h-56 opacity-12 blur-2xl animate-drift-2"
+        className="absolute w-[100vh] h-[100vh] opacity-15 blur-3xl"
         style={{
-          background: `radial-gradient(ellipse 70% 50%, hsl(var(--brand-golden) / 0.25) 0%, transparent 60%)`,
-          bottom: '35%',
-          right: '15%',
-          borderRadius: '45% 55% 65% 35%',
+          background: `radial-gradient(circle, hsl(var(--brand-orange) / 0.2) 0%, hsl(var(--brand-charcoal) / 0.1) 50%, transparent 75%)`,
+          bottom: '-30%',
+          right: '-30%',
+        }}
+      />
+      
+      {/* Soft abstract shape - left side */}
+      <div 
+        className="absolute w-96 h-[150vh] opacity-8 blur-2xl"
+        style={{
+          background: `linear-gradient(45deg, 
+            hsl(var(--brand-amber) / 0.2) 0%, 
+            hsl(var(--brand-golden) / 0.15) 30%, 
+            transparent 60%
+          )`,
+          top: '-25%',
+          left: '-15%',
+          borderRadius: '40% 60% 30% 70%',
+        }}
+      />
+      
+      {/* Soft abstract shape - right side */}
+      <div 
+        className="absolute w-80 h-[120vh] opacity-6 blur-2xl"
+        style={{
+          background: `linear-gradient(-45deg, 
+            hsl(var(--brand-orange) / 0.18) 0%, 
+            hsl(var(--brand-charcoal) / 0.12) 40%, 
+            transparent 70%
+          )`,
+          top: '-10%',
+          right: '-10%',
+          borderRadius: '30% 70% 60% 40%',
+        }}
+      />
+      
+      {/* Atmospheric color transition overlay */}
+      <div 
+        className="absolute inset-0 opacity-5"
+        style={{
+          background: `radial-gradient(ellipse 150% 100% at 30% 20%, 
+            hsl(var(--brand-golden) / 0.3) 0%, 
+            transparent 50%
+          ), 
+          radial-gradient(ellipse 120% 80% at 70% 80%, 
+            hsl(var(--brand-orange) / 0.25) 0%, 
+            transparent 60%
+          )`,
         }}
       />
     </div>
