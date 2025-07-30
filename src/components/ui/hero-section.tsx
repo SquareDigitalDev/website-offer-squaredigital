@@ -8,7 +8,7 @@ export const HeroSection = () => {
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
           Get A Custom Website For Your Local Business
-          <span className="block mt-2 text-muted-foreground">
+          <span className="block mt-2 text-primary">
             Without Paying Thousands Upfront
           </span>
         </h1>
