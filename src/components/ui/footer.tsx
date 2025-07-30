@@ -36,7 +36,8 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm text-accent-foreground/80">
               <li>hello@squaredigital.com</li>
               <li>1-800-SQUARE-1</li>
-              <li>Monday - Friday, 9am - 6pm EST</li>
+              <li>Monday - Friday, 9am - 6pm PST</li>
+              <li>Vancouver, Canada</li>
             </ul>
           </div>
         </div>
