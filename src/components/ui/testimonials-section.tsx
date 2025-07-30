@@ -6,38 +6,17 @@ export const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "Square Digital transformed our online presence completely. Their expertise in Shopify development helped us increase our conversion rate by 40% within the first quarter.",
-      name: "Sarah Johnson",
-      business: "Bloom & Co.",
-      role: "CEO"
-    },
-    {
-      id: 2,
-      quote: "The team's attention to detail and understanding of our B2B needs was exceptional. They created a seamless experience that our wholesale customers love.",
-      name: "Michael Chen", 
-      business: "TechFlow Solutions",
-      role: "Managing Director"
-    },
-    {
-      id: 3,
-      quote: "Working with Square Digital was a game-changer for our retail operations. The POS integration they built unified our online and in-store experience perfectly.",
-      name: "Emma Rodriguez",
-      business: "Urban Style",
-      role: "Operations Manager"
-    },
-    {
-      id: 4,
-      quote: "Their strategic approach to ecommerce optimization delivered results beyond our expectations. We saw a 60% increase in revenue within six months.",
-      name: "David Thompson",
-      business: "Harvest Kitchen",
+      quote: "Square Digital made what felt impossible, effortless. Their team not only redesigned our booking experience but streamlined backend operations so our staff could spend more time delighting customers—not wrangling tech. We've seen a 35% boost in repeat bookings already.",
+      name: "Joanne",
+      business: "Life Maid Eady",
       role: "Founder"
     },
     {
-      id: 5,
-      quote: "The migration to Shopify was seamless and the ongoing support has been outstanding. Square Digital truly understands ecommerce at every level.",
-      name: "Lisa Park",
-      business: "Artisan Crafts Co.",
-      role: "Co-Founder"
+      id: 2,
+      quote: "Working with Square Digital was like plugging a high-performance engine into our marketing stack. Their strategic clarity and flawless execution on our web funnel lifted qualified leads by 60% in under two months. They get both the big picture and the gritty details.",
+      name: "Jordan", 
+      business: "Stanzack Consulting",
+      role: "Principal Consultant"
     }
   ];
 
