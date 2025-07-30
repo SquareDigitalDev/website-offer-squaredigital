@@ -107,7 +107,7 @@ export const PricingSection = () => {
         </div>
         
         <p className="text-center text-sm text-muted-foreground mt-8">
-          * Plans are billed monthly. Cancel anytime with 30 days notice.
+          * Plans are billed monthly. 30 day money back guarantee
         </p>
       </div>
     </section>
