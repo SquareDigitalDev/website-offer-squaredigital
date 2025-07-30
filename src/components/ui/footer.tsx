@@ -4,11 +4,12 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-6 h-6 bg-primary rounded flex items-center justify-center">
-                <div className="w-3 h-3 border-2 border-accent rounded-sm"></div>
-              </div>
-              <span className="font-bold">SQUARE DIGITAL</span>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src="/lovable-uploads/9c2adbf9-0f95-4111-a250-2f04ec62f295.png" 
+                alt="Square Digital Logo" 
+                className="h-6 w-auto"
+              />
             </div>
             <p className="text-accent-foreground/80 text-sm">
               Professional websites for local businesses. Built, hosted, and managed for you.
