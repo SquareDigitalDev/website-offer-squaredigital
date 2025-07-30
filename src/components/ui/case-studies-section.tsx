@@ -5,36 +5,40 @@ import { Badge } from "@/components/ui/badge";
 export const CaseStudiesSection = () => {
   const websiteMockups = [
     {
-      id: "cleaning-service",
-      title: "Exterior Cleaning Company",
-      description: "Modern, professional website for Yolo and Solano County's premier exterior cleaning service",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+      id: "simon-babin-carpentry",
+      title: "Simon Babin Carpentry",
+      description: "Built a clean, modern site for Simon Babin Carpentry to showcase projects and convert premium leads.",
+      image: "/lovable-uploads/4760c027-811a-45a8-87b1-f288a4f00001.png",
       cta: "View Live Site",
-      category: "Home Services"
+      category: "Carpentry",
+      link: "https://simonbabincarpentry.ca/"
     },
     {
-      id: "junk-removal", 
-      title: "Junk Removal & Demolition",
-      description: "High-converting website for junk removal and demolition services with online booking",
-      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
-      cta: "See Full Project",
-      category: "Waste Management"
+      id: "just-move-vancouver", 
+      title: "Just Move Vancouver",
+      description: "Created a clean, responsive site for Just Move Vancouver that showcases service quality and boosts leads.",
+      image: "/lovable-uploads/d2392eb9-0aac-4add-9143-4b611a9f5a06.png",
+      cta: "View Live Site",
+      category: "Moving Services",
+      link: "https://justmovevancouver.ca/"
     },
     {
-      id: "garage-doors",
-      title: "Garage Door Services", 
-      description: "Lead-generating website for South Bay's #1 rated garage door installation company",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop",
-      cta: "View Case Study",
-      category: "Home Repair"
+      id: "homes-with-karen",
+      title: "Homes With Karen", 
+      description: "Crafted a sleek, client-first site for Homes With Karen to showcase listings and convert local buyer/leads",
+      image: "/lovable-uploads/f9e56695-2c48-42d9-804c-c4ccacea137a.png",
+      cta: "View Live Site",
+      category: "Real Estate",
+      link: "https://homeswithkaren.ca/"
     },
     {
-      id: "pressure-washing",
-      title: "Pressure Washing Business",
-      description: "Mobile-optimized website for Central Florida's highest quality exterior cleaning services",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba02777811?w=600&h=400&fit=crop",
-      cta: "See Results",
-      category: "Cleaning Services"
+      id: "imagine-hot-yoga",
+      title: "Imagine Hot Yoga",
+      description: "Created a conversion-focused site for Imagine Hot Yoga to streamline class signups and grow their member base",
+      image: "/lovable-uploads/76aeb0cb-2830-435f-8b91-b0b2b9fb4a5f.png",
+      cta: "View Live Site",
+      category: "Wellness",
+      link: "https://imaginehotyogawellness.com/"
     }
   ];
 
@@ -84,7 +88,11 @@ export const CaseStudiesSection = () => {
                 <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
                   {mockup.description}
                 </p>
-                <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                <Button 
+                  variant="outline" 
+                  className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                  onClick={() => window.open(mockup.link, '_blank')}
+                >
                   {mockup.cta}
                 </Button>
               </CardContent>
