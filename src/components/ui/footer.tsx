@@ -6,7 +6,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/lovable-uploads/9c2adbf9-0f95-4111-a250-2f04ec62f295.png" 
+                src="/lovable-uploads/ae351bce-447d-4757-95e3-bb8693209b2f.png" 
                 alt="Square Digital Logo" 
                 className="h-6 w-auto"
               />
