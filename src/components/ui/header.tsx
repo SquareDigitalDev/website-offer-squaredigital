@@ -16,8 +16,12 @@ export const Header = () => {
           
         </nav>
         
-        <Button variant="outline" size="sm">
-          Get Quote
+        <Button 
+          variant="default" 
+          size="sm"
+          onClick={() => window.open('https://squaredigital.typeform.com/to/MlCmyZ5t', '_blank')}
+        >
+          Build me a website
         </Button>
       </div>
     </header>;
