@@ -10,10 +10,12 @@ export const PricingSection = () => {
       period: "/month",
       description: "A Fully Managed Site",
       features: [
-        "5 Page Website",
-        "On Page SEO", 
-        "Automated Email Responder",
-        "Update Requests"
+        "Up to 5 professionally designed pages (Home, About, Services, Contact, etc.)",
+        "SEO-ready layout with optimized headings, metadata, and structure",
+        "Mobile-first design for modern browsing behavior",
+        "Built-in contact forms and lead capture",
+        "Unlimited edits & update requests (no extra charge)",
+        "Blazing-fast hosting on our secure cloud infrastructure"
       ],
       popular: false
     },
