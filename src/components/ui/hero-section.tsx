@@ -26,7 +26,12 @@ export const HeroSection = () => {
           <Button size="lg" className="text-lg px-8 py-6">
             Get Started Today
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="text-lg px-8 py-6"
+            onClick={() => document.getElementById('case-studies')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             View Examples
           </Button>
         </div>
