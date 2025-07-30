@@ -12,7 +12,7 @@ export const PricingSection = () => {
       features: [
         "Up to 5 professionally designed pages (Home, About, Services, Contact, etc.)",
         "SEO-ready layout with optimized headings, metadata, and structure",
-        "Mobile-first design for modern browsing behavior",
+        "Mobile-first design",
         "Built-in contact forms and lead capture",
         "Unlimited edits & update requests (no extra charge)",
         "Blazing-fast hosting on our secure cloud infrastructure"
