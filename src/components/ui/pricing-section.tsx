@@ -28,7 +28,7 @@ export const PricingSection = () => {
         "Up to 10 custom-designed pages",
         "Automated SMS or email responders for new inquiries",
         
-        "Basic CRM integration (HubSpot, Mailchimp, etc.)",
+        "CRM integration (HubSpot, Mailchimp, etc.)",
         "Priority turnaround on update requests"
       ],
       popular: false
