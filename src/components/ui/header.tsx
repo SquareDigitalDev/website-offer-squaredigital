@@ -9,7 +9,7 @@ export const Header = () => {
         
         <nav className="hidden md:flex items-center gap-8">
           <div className="flex items-center gap-1 text-foreground">
-            <Leaf size={14} className="text-primary" />
+            
             <span>Proudly Canadian</span>
           </div>
           
