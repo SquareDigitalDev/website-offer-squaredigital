@@ -13,9 +13,18 @@ export const HeroSection = () => {
           </span>
         </h1>
         
-        {/* YouTube video section */}
+        {/* Local video section */}
         <div className="mb-8 max-w-4xl mx-auto">
-          <YouTubeEmbed videoId="k71GDGtaNsQ" />
+          <div className="relative aspect-video bg-black rounded-lg overflow-hidden">
+            <video
+              src="/SD Video for Ads .mp4"
+              controls
+              className="w-full h-full"
+              poster=""
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
         
         <p className="text-xl mb-8 text-foreground max-w-2xl mx-auto font-bold">
