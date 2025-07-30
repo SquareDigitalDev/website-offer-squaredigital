@@ -47,7 +47,7 @@ export const CaseStudiesSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
-            Smart, Effective Websites for Business Operators Who Don't Have Time to Waste. We'll Handle It.
+            Smart, Effective Websites for Business Operators Who Don't Have Time to Waste. <span className="text-primary">We'll Handle It.</span>
           </h2>
           
           <div className="flex items-center justify-center gap-4 mb-8">
