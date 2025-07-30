@@ -41,7 +41,7 @@ export const PricingSection = () => {
       features: [
         "Up to 20 fully custom pages",
         "Advanced automations (multi-step email/SMS flows)",
-        "Conversion copywriting guidance (for key CTAs and funnels)",
+        "Conversion copywriting (for key CTAs and funnels)",
         "Priority support line (skip the queue)",
         "Monthly performance check-ins and update strategy sessions"
       ],
