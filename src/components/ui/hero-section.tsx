@@ -19,6 +19,8 @@ export const HeroSection = () => {
             <video
               src="/sd-video-for-ads.mp4"
               controls
+              autoPlay
+              muted
               className="w-full h-full"
               poster=""
             >
