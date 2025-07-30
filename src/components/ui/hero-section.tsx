@@ -35,7 +35,7 @@ export const HeroSection = () => {
           For small and medium-sized business owners, time is money—and wrestling with freelancers, DIY builders, or bloated agencies can cost you both. Our all-in-one website packages give you a fast, professional, fully-managed site that looks great, runs smoothly, and helps you win customers—without the tech headaches. Whether you're just getting started or scaling up, we handle the design, hosting, updates, and automation—so you can focus on what you do best: growing your business.
         </p>
         
-        <Card className="inline-block p-4 mb-8 bg-primary/10 border-primary/20">
+        <Card className="inline-block p-4 mb-8 border-primary/20">
           <p className="text-lg font-semibold text-accent">
             Start Now - Go Live Within 7 Days!
           </p>
