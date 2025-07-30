@@ -99,8 +99,12 @@ export const CaseStudiesSection = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button size="lg" className="text-lg px-8 py-6">
-            Get Your Custom Website Quote
+          <Button 
+            size="lg" 
+            className="text-lg px-8 py-6"
+            onClick={() => window.open('https://squaredigital.typeform.com/to/MlCmyZ5t?typeform-source=a0ca6f58-535c-4753-942d-13e5d2cec672.lovableproject.com', '_blank')}
+          >
+            Get Started
           </Button>
         </div>
       </div>
