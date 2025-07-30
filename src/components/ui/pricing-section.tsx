@@ -88,7 +88,7 @@ export const PricingSection = () => {
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                      <span className="text-foreground">Mobile first design</span>
+                      <span className="text-foreground">{feature}</span>
                     </li>
                   ))}
                 </ul>
