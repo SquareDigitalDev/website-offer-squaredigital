@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { VideoUpload } from "@/components/ui/video-upload";
+import { YouTubeEmbed } from "@/components/ui/youtube-embed";
 
 export const HeroSection = () => {
   return (
@@ -13,9 +13,9 @@ export const HeroSection = () => {
           </span>
         </h1>
         
-        {/* Video upload section */}
+        {/* YouTube video section */}
         <div className="mb-8 max-w-4xl mx-auto">
-          <VideoUpload />
+          <YouTubeEmbed videoId="k71GDGtaNsQ" />
         </div>
         
         <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
