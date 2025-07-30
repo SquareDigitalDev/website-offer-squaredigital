@@ -15,7 +15,7 @@ export const Footer = () => {
             <h4 className="font-semibold mb-3">Services</h4>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
               <li>Website Design</li>
-              <li>Website Hosting</li>
+              <li>Social Media and Paid Marketing</li>
               <li>SEO Optimization</li>
               <li>Email Marketing</li>
             </ul>
@@ -24,10 +24,10 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-3">Support</h4>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
-              <li>Help Center</li>
-              <li>Contact Support</li>
-              <li>Documentation</li>
-              <li>Live Chat</li>
+              <li>30 Day Guarantee </li>
+              
+              
+              
             </ul>
           </div>
           
@@ -35,7 +35,7 @@ export const Footer = () => {
             <h4 className="font-semibold mb-3">Contact</h4>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
               <li>hello@squaredigital.com</li>
-              <li>1-800-SQUARE-1</li>
+              
               <li>Monday - Friday, 9am - 6pm PST</li>
               <li>Vancouver, Canada</li>
             </ul>
