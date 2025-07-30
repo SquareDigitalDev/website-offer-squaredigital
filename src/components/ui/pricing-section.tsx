@@ -97,6 +97,7 @@ export const PricingSection = () => {
                   className="w-full mt-auto" 
                   variant={plan.popular ? "default" : "outline"}
                   size="lg"
+                  onClick={() => window.open('https://squaredigital.typeform.com/to/MlCmyZ5t', '_blank')}
                 >
                   Get Started
                 </Button>
