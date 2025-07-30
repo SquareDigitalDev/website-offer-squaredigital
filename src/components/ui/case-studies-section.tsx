@@ -51,9 +51,9 @@ export const CaseStudiesSection = () => {
           </h2>
           
           <div className="flex items-center justify-center gap-4 mb-8">
-            <Badge variant="default" className="text-lg px-6 py-2 animate-pulse bg-primary text-primary-foreground">
+            <div className="text-lg animate-pulse text-primary font-semibold">
               LIMITED TIME OFFER
-            </Badge>
+            </div>
             <div className="text-lg font-semibold text-muted-foreground">
               Deadline: August 8th, 2025
             </div>
