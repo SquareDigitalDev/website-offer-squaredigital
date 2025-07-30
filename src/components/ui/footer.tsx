@@ -24,7 +24,7 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-3">Support</h4>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
-              <li>30 Day Guarantee </li>
+              <li><a href="https://www.squaredigital.com/30-day-guarantee/" className="hover:text-accent-foreground transition-colors">30 Day Guarantee</a></li>
               
               
               
