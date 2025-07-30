@@ -4,11 +4,12 @@ export const Header = () => {
   return (
     <header className="border-b border-border bg-background">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-            <div className="w-4 h-4 border-2 border-accent rounded-sm"></div>
-          </div>
-          <span className="text-xl font-bold text-foreground">SQUARE DIGITAL</span>
+        <div className="flex items-center gap-3">
+          <img 
+            src="/lovable-uploads/9c2adbf9-0f95-4111-a250-2f04ec62f295.png" 
+            alt="Square Digital Logo" 
+            className="h-8 w-auto"
+          />
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
