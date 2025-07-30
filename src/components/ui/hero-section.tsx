@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { VideoUpload } from "@/components/ui/video-upload";
 
 export const HeroSection = () => {
   return (
@@ -12,19 +13,9 @@ export const HeroSection = () => {
           </span>
         </h1>
         
-        {/* Video embed section */}
+        {/* Video upload section */}
         <div className="mb-8 max-w-4xl mx-auto">
-          <div className="relative aspect-video bg-muted rounded-lg border-2 border-dashed border-muted-foreground/20 flex items-center justify-center group hover:border-muted-foreground/40 transition-colors">
-            <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
-                <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z"/>
-                </svg>
-              </div>
-              <p className="text-muted-foreground font-medium">Video about our services</p>
-              <p className="text-sm text-muted-foreground/70 mt-1">Click to embed your video</p>
-            </div>
-          </div>
+          <VideoUpload />
         </div>
         
         <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
