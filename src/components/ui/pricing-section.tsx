@@ -27,7 +27,7 @@ export const PricingSection = () => {
       features: [
         "Up to 10 custom-designed pages",
         "Automated SMS or email responders for new inquiries",
-        "Lead magnet setup (e.g., ebook, checklist, quiz)",
+        
         "Basic CRM integration (HubSpot, Mailchimp, etc.)",
         "Priority turnaround on update requests"
       ],
