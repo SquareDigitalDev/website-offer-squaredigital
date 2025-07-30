@@ -89,9 +89,9 @@ export const CaseStudiesSection = () => {
                 <Button 
                   variant="outline" 
                   className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
-                  onClick={() => window.open('https://justmovevancouver.ca/', '_blank')}
+                  onClick={() => window.open('https://www.squaredigital.com/portfolio/', '_blank')}
                 >
-                  see Simon's website
+                  See Portfolio
                 </Button>
               </CardContent>
             </Card>
