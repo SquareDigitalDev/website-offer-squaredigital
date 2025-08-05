@@ -40,7 +40,7 @@ export const PricingSection = () => {
       description: "Everything in Deluxe +",
       features: [
         "Up to 20 fully custom pages",
-        "Advanced automations (multi-step email/SMS flows)",
+        "5 revisions per month",
         "Conversion copywriting (for key CTAs and funnels)",
         "Priority support line (skip the queue)",
         "Monthly performance check-ins and update strategy sessions"
