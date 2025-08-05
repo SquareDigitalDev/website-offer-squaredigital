@@ -27,7 +27,7 @@ export const PricingSection = () => {
       features: [
         "Up to 10 custom-designed pages",
         "Automated SMS or email responders for new inquiries",
-        
+        "2 revisions per month",
         "CRM integration (HubSpot, Mailchimp, etc.)",
         "Priority turnaround on update requests"
       ],
