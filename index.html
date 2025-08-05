@@ -39,8 +39,13 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
+    
+    // Initialize Meta Pixel
     fbq('init', '336435471281111');
     fbq('track', 'PageView');
+    
+    // Debug log to verify pixel is working
+    console.log('Meta Pixel initialized with ID: 336435471281111');
     </script>
     <!-- End Meta Pixel Code -->
   </head>
