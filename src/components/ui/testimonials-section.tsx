@@ -8,7 +8,7 @@ export const TestimonialsSection = () => {
       id: 1,
       quote: "Square Digital made what felt impossible, effortless. Their team not only redesigned our booking experience but streamlined backend operations so our staff could spend more time delighting customers—not wrangling tech. We've seen a 35% boost in repeat bookings already.",
       name: "Joanne",
-      business: "Life Maid Eady",
+      business: "Life Maid Easy",
       role: "Founder"
     },
     {
