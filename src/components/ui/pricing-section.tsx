@@ -17,7 +17,8 @@ export const PricingSection = () => {
         
         "Blazing-fast hosting on our secure cloud infrastructure"
       ],
-      popular: false
+      popular: false,
+      url: "https://buy.stripe.com/cNi5kDa1r0q5959giQbwk0B"
     },
     {
       name: "Deluxe",
@@ -31,7 +32,8 @@ export const PricingSection = () => {
         "CRM integration (HubSpot, Mailchimp, etc.)",
         "Priority turnaround on update requests"
       ],
-      popular: false
+      popular: false,
+      url: "https://buy.stripe.com/dRm3cv8Xn2yd2GL0jSbwk0C"
     },
     {
       name: "Premium",
@@ -46,7 +48,8 @@ export const PricingSection = () => {
         "Monthly performance check-ins and update strategy sessions"
       ],
       popular: true,
-      badge: "Best Value"
+      badge: "Best Value",
+      url: "https://buy.stripe.com/dRm14n0qR8WBgxBc2Abwk0D"
     }
   ];
 
@@ -97,7 +100,7 @@ export const PricingSection = () => {
                   className="w-full mt-auto" 
                   variant={plan.popular ? "default" : "outline"}
                   size="lg"
-                  onClick={() => window.open('https://squaredigital.typeform.com/to/MlCmyZ5t', '_blank')}
+                  onClick={() => window.open(plan.url, '_blank')}
                 >
                   Get Started
                 </Button>
