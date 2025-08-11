@@ -6,7 +6,7 @@ export const PricingSection = () => {
   const plans = [
     {
       name: "Starter",
-      price: "$125",
+      price: "$175",
       period: "/month",
       description: "A Fully Managed Site",
       features: [
