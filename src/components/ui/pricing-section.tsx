@@ -22,7 +22,7 @@ export const PricingSection = () => {
     },
     {
       name: "Deluxe",
-      price: "$300",
+      price: "$275",
       period: "/month*",
       description: "Everything in Starter +",
       features: [
