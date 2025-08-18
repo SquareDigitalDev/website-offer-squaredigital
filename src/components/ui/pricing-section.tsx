@@ -33,7 +33,7 @@ export const PricingSection = () => {
         "Priority turnaround on update requests"
       ],
       popular: false,
-      url: "https://buy.stripe.com/dRm3cv8Xn2yd2GL0jSbwk0C"
+      url: "https://buy.stripe.com/8x2dR9flLegV3KP6Igbwk0F"
     },
     {
       name: "Premium",
