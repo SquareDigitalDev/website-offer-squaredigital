@@ -18,7 +18,7 @@ export const PricingSection = () => {
         "Blazing-fast hosting on our secure cloud infrastructure"
       ],
       popular: false,
-      url: "https://buy.stripe.com/cNi5kDa1r0q5959giQbwk0B"
+      url: "https://buy.stripe.com/00w8wP2yZ0q51CH2s0bwk0E"
     },
     {
       name: "Deluxe",
